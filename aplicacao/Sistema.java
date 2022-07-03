@@ -5,9 +5,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-import entidades.Contrato;
-import entidades.Departamento;
-import entidades.Funcionario;
+import entidade.Contrato;
+import entidade.Departamento;
+import entidade.Funcionario;
 import entidades.enums.Nivel;
 
 public class Sistema {
@@ -53,7 +53,7 @@ public class Sistema {
 		int mes = Integer.parseInt(mesAno.substring(0, 2));
 		int ano = Integer.parseInt(mesAno.substring(3));
 		System.out.println("Nome " + funcionario.getNome());
-		System.out.println("Departamento" + funcionario.getDepartamento().getNome());
+		System.out.println("Departamento " + funcionario.getDepartamento().getNome());
 		System.out.println("Salário de "+ mesAno + " R$ "+ String.format("%.2f", funcionario.ganho(ano,mes)));
 		
 		

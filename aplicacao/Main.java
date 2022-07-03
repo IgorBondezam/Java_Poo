@@ -2,7 +2,7 @@ package aplicacao;
 
 import java.util.Scanner;
 
-import entidades.Veiculo;
+import entidade.Veiculo;
 
 public class Main {
 
